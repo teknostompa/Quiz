@@ -1,0 +1,29 @@
+body{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+form{
+    width: 320px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    border: 0;
+    border-radius: 15px;
+    background-color: #EFEEEE;
+}
