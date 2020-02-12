@@ -9,3 +9,7 @@
 - 3 Göra javascript (2 timmar)
   - Rätta
   - Svara
+
+- Bugfix lista
+  - Svar visas inte
+  - Fel mängd svar
