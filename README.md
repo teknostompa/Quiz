@@ -13,3 +13,6 @@
 - Bugfix lista
   - Svar visas inte
   - Fel mängd svar
+  
+# Källor
+Jag har skrivit all kod från grunden utan några externa källor.
