@@ -10,47 +10,57 @@
 
 </head>
 <body>
+    <div id="grön"></div>
     <form action="">
         <div>
             <label for="fornamn">Vad är 5+10*5?</label>
-            <input type="number" name="fornamn" id="1" required>
+            <input type="number" name="fornamn" id="1" required onchange="bakgrund(this)">
         </div>
         <div>
             <label for="fornamn">Vad är 5+9/3?</label>
-            <input type="number" name="fornamn" id="2" required>
+            <input type="number" name="fornamn" id="2" required onchange="bakgrund(this)">
         </div>
         <div>
             <label for="fornamn">Är 0 jämnt?</label>
-            <input type="number" name="fornamn" id="3" required>
+            <input type="text" name="fornamn" id="3" required  onchange="bakgrund(this)">
         </div>
         <div>
             <label for="fornamn">Vad är derivatorn av 3x+5?</label>
-            <input type="number" name="fornamn" id="4" required>
+            <input type="number" name="fornamn" id="4" required onchange="bakgrund(this)">
         </div>
         <div>
             <label for="fornamn">Vad är X om 5X=14? svara med 1 decimal.</label>
-            <input type="number" name="fornamn" id="5" required>
+            <input type="number" name="fornamn" id="5" required onchange="bakgrund(this)">
         </div>
         <div>
             <label for="fornamn">Vad är 52+76*8?</label>
-            <input type="number" name="fornamn" id="6" required>
+            <input type="number" name="fornamn" id="6" required onchange="bakgrund(this)">
         </div>
         <div>
             <label for="fornamn">Vad är 5!?</label>
-            <input type="number" name="fornamn" id="7" required>
+            <input type="number" name="fornamn" id="7" required onchange="bakgrund(this)">
         </div>
         <div>
             <label for="fornamn">Vad är summan av alla tal från 0 upp till 10?</label>
-            <input type="number" name="fornamn" id="8" required>
+            <input type="number" name="fornamn" id="8" required onchange="bakgrund(this)">
         </div>
         <div>
             <label for="fornamn">Vad är 3*333?</label>
-            <input type="number" name="fornamn" id="9" required>
+            <input type="number" name="fornamn" id="9" required onchange="bakgrund(this)">
         </div>
         <div>
             <label for="fornamn">Vad är 3*sqrt(2)? Svara med 1 decimal.</label>
-            <input type="number" name="fornamn" id="10" required>
+            <input type="number" name="fornamn" id="10" required onchange="bakgrund(this)">
+        </div>
+        <div>
+            <label for="fornamn">Vad är 2/0.</label>
+            <input type="text" name="fornamn" id="11" required onchange="bakgrund(this)">
+        </div>
+        <input type="button" class="button" value="Skicka" onclick="Rätta(this)">
+        <div class="result">
+
         </div>
     </form>
 </body>
+<script src="script.js"></script>
 </html>
